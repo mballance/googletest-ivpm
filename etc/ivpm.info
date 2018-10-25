@@ -1,0 +1,5 @@
+
+name=googletest-ivpm
+version=1.8.1
+rootvar=GOOGLETEST
+
