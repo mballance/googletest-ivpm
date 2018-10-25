@@ -5,6 +5,7 @@ GOOGLETEST_IVPM_DIR:=$(abspath $(GOOGLETEST_IVPM_MKFILES_DIR)/..)
 ifneq (1,$(RULES))
 
 SRC_DIRS += $(GOOGLETEST_IVPM_DIR)/googletest/include
+SRC_DIRS += $(GOOGLETEST_IVPM_DIR)/googletest
 SRC_DIRS += $(GOOGLETEST_IVPM_DIR)/googletest/src
 
 else # Rules
